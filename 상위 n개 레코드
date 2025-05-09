@@ -1,0 +1,6 @@
+# 동물 보호소에 가장 먼저 들어온 동물의 이름을 조회하는 SQL 문을 작성해주세요.
+
+SELECT NAME
+FROM ANIMAL_INS
+ORDER BY DATETIME ASC
+LIMIT 1   # ORDER BY와 함께 쓰면 “정렬된 결과 중 상위 n개”를 가져옴, order by 랑 안쓰이면 랜덤으로 앞쪽 n개 반환됨.
